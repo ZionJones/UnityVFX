@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2603382712913538101}
   - component: {fileID: 2458555939273648474}
   - component: {fileID: 8602656244085821717}
+  - component: {fileID: 6155969241576727339}
   m_Layer: 0
   m_Name: ShockBullet
   m_TagString: Untagged
@@ -70,6 +71,20 @@ CircleCollider2D:
   m_Offset: {x: 6.619387, y: -0.22463036}
   serializedVersion: 2
   m_Radius: 1.0824966
+--- !u!114 &6155969241576727339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855236368510093972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f972b870001bee4089cd47ad17c954a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedmultiplier: 15
+  damage: 5
 --- !u!1 &5266831629570249117
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,7 +5125,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5426,7 +5441,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 100
+    maxNumParticles: 90
     size3D: 0
     rotation3D: 0
     gravityModifier:
