@@ -120,7 +120,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1268265885
+--- !u!1 &857347372
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,10 +128,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1268265889}
-  - component: {fileID: 1268265888}
-  - component: {fileID: 1268265887}
-  - component: {fileID: 1268265886}
+  - component: {fileID: 857347376}
+  - component: {fileID: 857347375}
+  - component: {fileID: 857347374}
+  - component: {fileID: 857347373}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -139,13 +139,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1268265886
+--- !u!64 &857347373
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268265885}
+  m_GameObject: {fileID: 857347372}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -153,13 +153,13 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1268265887
+--- !u!23 &857347374
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268265885}
+  m_GameObject: {fileID: 857347372}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -191,23 +191,23 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &1268265888
+--- !u!33 &857347375
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268265885}
+  m_GameObject: {fileID: 857347372}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1268265889
+--- !u!4 &857347376
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268265885}
+  m_GameObject: {fileID: 857347372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.94000006, y: 0, z: 0}
+  m_LocalPosition: {x: -2.1804833, y: -1.05, z: -0.08729981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -310,11 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5044275658615377, guid: 905d33a505e7ff247858895211d0cc32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5044275658615377, guid: 905d33a505e7ff247858895211d0cc32, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.51
+      value: -1.22
       objectReference: {fileID: 0}
     - target: {fileID: 5044275658615377, guid: 905d33a505e7ff247858895211d0cc32, type: 3}
       propertyPath: m_LocalPosition.z

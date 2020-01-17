@@ -8586,7 +8586,7 @@ ParticleSystem:
     outside: 0
     enter: 1
     exit: 0
-    radiusScale: 1
+    radiusScale: 1.15
   SubModule:
     serializedVersion: 2
     enabled: 0
