@@ -1,1 +1,2 @@
-![](Images/Gifs/Barrier1.gif)
+
+![](ImagesGifs/StarSpiral.gif)
