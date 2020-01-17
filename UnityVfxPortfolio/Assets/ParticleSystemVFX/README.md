@@ -1,2 +1,1 @@
-
-![](ImagesGifs/StarSpiral.gif)
+![](image/StarSpiral.gif)
